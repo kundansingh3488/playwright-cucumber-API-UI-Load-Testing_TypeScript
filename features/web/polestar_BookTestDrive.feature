@@ -1,3 +1,4 @@
+@UI @polestar
 Feature: Tc: 02 Car Test drive Booking.
 
     Background:

@@ -23,6 +23,7 @@ export default class CommonPage {
     }
 
     public async logout() {
+        await this.web.pauseInSecs(2);
         await this.web.element(this.MY_ACCOUNT_LINK, Constants.MY_ACCOUNT).hover();
         await this.web.element(StringUtil.formatString(this.MENU_LINK, Constants.LOGOUT), Constants.LOGOUT).click();
     }

@@ -15,7 +15,7 @@ export default class poleStarHomePage {
     // private DUAL_MOTOR_LONG_RANGE = "(//span[@class='css-1uw6oeb'])[2]";
     private DUAL_MOTOR_LONG_RANGE = "button[value='PA'] span[class='css-1uw6oeb']";
     private EXTERIOR_COLOUR = "button[aria-label='Gold'] img[class='css-1bibx2p']";
-    private NEXT_ARROW_IMG = "//*[name()='path' and contains(@d,'m5.675 2-1')]";
+    private NEXT_ARROW_IMG = "button[class='css-1esvy6s'] span[class='css-62qso3'] svg";
     private INTERIOR_COLOUR = "button[aria-label='Bio-attributed MicroTech i Charcoal med Charcoal deco'] img[class='css-1bibx2p']";
     private NEXT_IMG = "button[class='css-1esvy6s'] span[class='css-62qso3'] svg";
     private PRO_PACK_CHECKBOX ="input[id='220003']";
